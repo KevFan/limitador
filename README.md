@@ -65,7 +65,7 @@ Some tests need a redis deployed in `localhost:6379`. You can run it in Docker w
 docker run --rm -p 6379:6379 -it redis
 ```
 
-Some tests need a infinispan deployed in `localhost:11222`. You can run it in Docker with:
+Some tests need an infinispan deployed in `localhost:11222`. You can run it in Docker with:
 ```bash
 docker run --rm -p 11222:11222 -it -e USER=username -e PASS=password infinispan/server:11.0.9.Final
 ```

@@ -4,7 +4,7 @@
 
 The preferred way of starting and configuring the Limitador server is using the command line:
 
-```
+```sh
 USAGE:
     limitador-server [OPTIONS] <LIMITS_FILE> [STORAGE]
 
